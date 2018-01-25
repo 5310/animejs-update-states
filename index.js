@@ -1,7 +1,7 @@
 const noop = () => {}
 const updateStates = ({
   beginForward = noop, completeForward = noop, runForward = noop, // Only triggers for forward
-  beginReverse = noop, completeReverse = noop, runReverse = noop  // and reversed animation.
+  beginReverse = noop, completeReverse = noop, runReverse = noop, // and reversed animation.
   begin        = noop, complete        = noop, run        = noop, // Equivalent to built-ins, but completes every time.
                       }) => (a) => {                              // Returns a callback for built-in `update`.
   if (!a.reversed) {
