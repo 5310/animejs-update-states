@@ -2,6 +2,7 @@
   "name": "animejs-update-states",
   "version": "1.0.0",
   "description": "Complex update state callbacks for Anime.js",
+  "keywords": ["animejs", "umd", "callback", "states"],
   "main": "index.js",
   "author": "Sayantan Chaudhuri",
   "license": "MIT",
