@@ -4,5 +4,6 @@
   "description": "Complex update state callbacks for Anime.js",
   "main": "index.js",
   "author": "Sayantan Chaudhuri",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": "git@github.com:5310/animejs-update-states.git"
 }
